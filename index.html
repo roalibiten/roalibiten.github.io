@@ -35,7 +35,6 @@
             <div class="navbar-nav ml-auto ">
                 <a class="btn btn-outline-success my-2 my-sm-0 " id="navbarButtons" href="#about">Hakkımızda</a>
                 <a class="btn btn-outline-success my-2 my-sm-0" id="navbarButtons" href="#products">ÜRÜNLERİMİZ</a>
-                <a class="btn btn-outline-success my-2 my-sm-0" id="navbarButtons" href="#blog">Blog</a>
                 <a class="btn btn-outline-success my-2 my-sm-0 " id="navbarButtons" href="#contact">İLETİŞİM</a>
                 <a class="btn btn-outline-success my-2 my-sm-0 " id="navbarButtons" href="tel:+905546625238">
                     Hemen Ara <i class="fas fa-phone"></i>
