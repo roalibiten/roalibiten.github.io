@@ -1,17 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c40ef0b.css",
-    "main.js": "/static/js/main.e2e51305.js",
+    "main.css": "/static/css/main.74a06857.css",
+    "main.js": "/static/js/main.f60de642.js",
     "static/js/787.980909cd.chunk.js": "/static/js/787.980909cd.chunk.js",
+    "static/media/Tetrex3DVR.png": "/static/media/Tetrex3DVR.0b453624b4a648d4b2bd.png",
+    "static/media/MovieApp.png": "/static/media/MovieApp.b256901751e35112c515.png",
+    "static/media/mobileApps.jpg": "/static/media/mobileApps.2664418daddb1a370d91.jpg",
+    "static/media/MDClub.png": "/static/media/MDClub.f5e750b4e88598ed5e4e.png",
+    "static/media/rovli.png": "/static/media/rovli.a2dddc69faebe708ea4a.png",
+    "static/media/Tetrex3D.png": "/static/media/Tetrex3D.310c02130fad6a897b1a.png",
+    "static/media/vrApps.jpg": "/static/media/vrApps.9bdbbc80d3801731fa3e.jpg",
+    "static/media/webApps.jpg": "/static/media/webApps.7ac8ab9d1eefe2bb7a37.jpg",
     "static/media/portrait.jpg": "/static/media/portrait.f6b3f310504efabb4936.jpg",
+    "static/media/BalanceBoard.png": "/static/media/BalanceBoard.d0ba415afb5fa95002a3.png",
+    "static/media/CampusWide.png": "/static/media/CampusWide.445375ff405dbdc3ca94.png",
+    "static/media/FallingBall.png": "/static/media/FallingBall.bb1ff30938967989add8.png",
+    "static/media/ReflexBoard.png": "/static/media/ReflexBoard.96d18a7b2b399487874d.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.0c40ef0b.css.map": "/static/css/main.0c40ef0b.css.map",
-    "main.e2e51305.js.map": "/static/js/main.e2e51305.js.map",
+    "main.74a06857.css.map": "/static/css/main.74a06857.css.map",
+    "main.f60de642.js.map": "/static/js/main.f60de642.js.map",
     "787.980909cd.chunk.js.map": "/static/js/787.980909cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c40ef0b.css",
-    "static/js/main.e2e51305.js"
+    "static/css/main.74a06857.css",
+    "static/js/main.f60de642.js"
   ]
 }
