@@ -122,8 +122,32 @@ function App() {
             I have been working as a freelance developer since 2017 which gave me a chance to create an impressive portfolio. You can see my <span className='dark:text-teal-200 text-teal-500'>Web Apps</span>, <span className='dark:text-teal-200 text-teal-500'>Mobile Applications</span> and <span className='dark:text-teal-200 text-teal-500'>Games</span> below.
           </p>
         </div>
+        
         <div className='flex flex-col gap-5 py-10 px-5 md:flex-row md:flex-wrap'>
 
+          <div className=' hover:scale-105 duration-100 basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center'>
+            <a className='object-cover flex flex-1 ' target="_blank" href="http://roalibiten.github.io/admin_dashboard">
+              <img src={require('./assets/admin_dashboard.png')} className=" mx-auto rounded-lg object-cover" />
+            </a>
+            <h2 className='m-5   text-white font-light '>Admin Dashboard Web App</h2>
+
+            </div>
+
+          <div className=' basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center'>
+              <a className='object-cover flex flex-1 ' target="_blank" href="http://rovlisoftware.com/">
+                <img src={require('./assets/rovli.png')} className=" mx-auto rounded-lg object-cover" />
+              </a>
+              <h2 className='m-5 dark:text-gray-300  text-gray-800 font-bold '>ROVLI Web Page</h2>
+
+            </div>
+          
+          <div className=' basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center'>
+            <a className='object-cover flex flex-1 '  target="_blank" href="https://roalibiten.github.io/movie_app_reactjs/">
+            <img src={require('./assets/MovieApp.png')} className=" mx-auto rounded-lg object-cover" />
+            </a>
+            <h2 className='m-5 dark:text-gray-300  text-gray-800 font-bold '>Movie Web App</h2>
+
+          </div>
           <div className=' basis-1/3 flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center'>
             <a className='object-cover flex flex-1 '  target="_blank" href="https://www.oculus.com/experiences/quest/6193634367344819/">
             <img src={require('./assets/chatApp.png')} className="mx-auto rounded-lg object-cover " />
@@ -132,20 +156,7 @@ function App() {
             <h2 className='m-5 dark:text-gray-300  text-gray-800 font-bold '>Customer Service Chat Web App</h2>
 
           </div>
-          <div className=' basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center'>
-            <a className='object-cover flex flex-1 '  target="_blank" href="https://roalibiten.github.io/movie_app_reactjs/">
-            <img src={require('./assets/MovieApp.png')} className=" mx-auto rounded-lg object-cover" />
-            </a>
-            <h2 className='m-5 dark:text-gray-300  text-gray-800 font-bold '>Movie Web App</h2>
-
-          </div>
-          <div className=' basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center'>
-            <a className='object-cover flex flex-1 ' target="_blank" href="http://rovlisoftware.com/">
-              <img src={require('./assets/rovli.png')} className=" mx-auto rounded-lg object-cover" />
-            </a>
-            <h2 className='m-5 dark:text-gray-300  text-gray-800 font-bold '>ROVLI Web Page</h2>
-
-          </div>
+          
           
           <div className=' basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center'>
             <a className='object-cover flex flex-1 '  target="_blank" href="https://play.google.com/store/apps/details?id=com.roalibiten.campuswide">
