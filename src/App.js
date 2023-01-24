@@ -28,7 +28,7 @@ function App() {
         </nav>
 
         <div className=" relative py-4 md:py-8">
-          <img src={require('./assets/portrait.jpg')} className=" rounded-full max-h-72 mx-auto md:max-h-96" />
+          <img src={require('./assets/portrait.jpg')} className=" hover:animate-spin duration-75 rounded-full max-h-72 mx-auto md:max-h-96" />
         </div>
         <div className=' text-5xl flex justify-center gap-12 py-3 text-gray-800'>
           <a target="_blank" href='https://www.linkedin.com/in/roali-tar%C4%B1k-biten-07b95b15b/'>
@@ -68,7 +68,7 @@ function App() {
         </div>
 
         <div className=' md:flex md:gap-2 lg:flex lg:gap-5 xl:flex xl:gap-10'>
-          <div className=' flex-1 text-center p-5 rounded-xl my-10 mx-5 shadow-lg  shadow-slate-600 dark:shadow-slate-200'>
+          <div className='  hover:scale-105 duration-100  flex-1 text-center p-5 rounded-xl my-10 mx-5 shadow-lg  shadow-slate-600 dark:shadow-slate-200'>
             <img src={require('./assets/mobileApps.jpg')} className=" rounded-xl max-h-72 mx-auto " />
             <h3 className='dark:text-white text-lg font-medium pt-8 pb-2'>Mobile Applications</h3>
             <p className='dark:text-gray-300 py-2 leading-8 text-gray-800'>
@@ -83,7 +83,7 @@ function App() {
             <p className='dark:text-gray-300  italic text-gray-800'>MongoDB</p>
             </div>
           </div>
-          <div className='  flex-1 text-center shadow-lg p-5 px-5 rounded-xl my-10 mx-5 shadow-slate-600 dark:shadow-slate-200'>
+          <div className=' hover:scale-105 duration-100   flex-1 text-center shadow-lg p-5 px-5 rounded-xl my-10 mx-5 shadow-slate-600 dark:shadow-slate-200'>
             <img src={require('./assets/webApps.jpg')} className=" rounded-xl max-h-72 mx-auto " />
             <h3 className='dark:text-white text-lg font-medium pt-8 pb-2'>Web Applications</h3>
             <p className='dark:text-gray-300 py-2 leading-8 text-gray-800'>
@@ -98,7 +98,7 @@ function App() {
             <p className='dark:text-gray-300 italic  text-gray-800'>MongoDB</p>
             </div>
           </div>
-          <div className='flex-1 text-center shadow-lg p-5 rounded-xl my-10 mx-5 shadow-slate-600 dark:shadow-slate-200'>
+          <div className='  hover:scale-105 duration-100 flex-1 text-center shadow-lg p-5 rounded-xl my-10 mx-5 shadow-slate-600 dark:shadow-slate-200'>
             <img src={require('./assets/vrApps.jpg')} className=" rounded-xl max-h-72 mx-auto " />
             <h3 className='dark:text-white text-lg font-medium pt-8 pb-2'>Virtual Reality</h3>
             <p className='dark:text-gray-300 py-2 leading-8 text-gray-800'>
@@ -129,11 +129,11 @@ function App() {
             <a className='object-cover flex flex-1 ' target="_blank" href="http://roalibiten.github.io/admin_dashboard">
               <img src={require('./assets/admin_dashboard.png')} className=" mx-auto rounded-lg object-cover" />
             </a>
-            <h2 className='m-5   text-white font-light '>Admin Dashboard Web App</h2>
+            <h2 className='m-5 dark:text-gray-300  text-gray-800 font-bold '>Admin Dashboard Web App</h2>
 
             </div>
 
-          <div className=' basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center'>
+          <div className=' hover:scale-105 duration-100  basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center'>
               <a className='object-cover flex flex-1 ' target="_blank" href="http://rovlisoftware.com/">
                 <img src={require('./assets/rovli.png')} className=" mx-auto rounded-lg object-cover" />
               </a>
@@ -141,14 +141,14 @@ function App() {
 
             </div>
           
-          <div className=' basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center'>
+          <div className=' hover:scale-105 duration-100  basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center'>
             <a className='object-cover flex flex-1 '  target="_blank" href="https://roalibiten.github.io/movie_app_reactjs/">
             <img src={require('./assets/MovieApp.png')} className=" mx-auto rounded-lg object-cover" />
             </a>
             <h2 className='m-5 dark:text-gray-300  text-gray-800 font-bold '>Movie Web App</h2>
 
           </div>
-          <div className=' basis-1/3 flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center'>
+          <div className=' hover:scale-105 duration-100  basis-1/3 flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center'>
             <a className='object-cover flex flex-1 '  target="_blank" href="https://www.oculus.com/experiences/quest/6193634367344819/">
             <img src={require('./assets/chatApp.png')} className="mx-auto rounded-lg object-cover " />
 
@@ -158,7 +158,7 @@ function App() {
           </div>
           
           
-          <div className=' basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center'>
+          <div className=' hover:scale-105 duration-100  basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center'>
             <a className='object-cover flex flex-1 '  target="_blank" href="https://play.google.com/store/apps/details?id=com.roalibiten.campuswide">
               <img src={require('./assets/CampusWide.png')} className=" mx-auto rounded-lg object-cover" />
             </a>
@@ -167,7 +167,7 @@ function App() {
           </div>
          
           
-          <div className=' basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center'>
+          <div className=' hover:scale-105 duration-100  basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center'>
             <a className='object-cover flex flex-1 '  target="_blank" href="https://play.google.com/store/apps/details?id=com.ortadogu.mdclub">
             <img src={require('./assets/MDClub.png')} className="  mx-auto rounded-lg object-cover " />
 
@@ -175,7 +175,7 @@ function App() {
             <h2 className='m-5 dark:text-gray-300  text-gray-800 font-bold '>MD Club Mobile App</h2>
 
           </div>
-          <div className=' basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center' >
+          <div className=' hover:scale-105 duration-100  basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center' >
             <a className='object-cover flex flex-1 '  target="_blank" href="https://play.google.com/store/apps/details?id=com.roalibiten.FallinBall">
             <img src={require('./assets/FallingBall.png')} className="mx-auto rounded-lg object-cover  " />
 
@@ -183,7 +183,7 @@ function App() {
             <h2 className='m-5 dark:text-gray-300  text-gray-800 font-bold '>Fall'in Ball Mobile Game</h2>
 
           </div>
-          <div className=' basis-1/3 flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center'>
+          <div className=' hover:scale-105 duration-100  basis-1/3 flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center'>
             <a className='object-cover flex flex-1 '  target="_blank" href="https://play.google.com/store/apps/details?id=com.roalibiten.BalanceBoard">
             <img src={require('./assets/BalanceBoard.png')} className="mx-auto rounded-lg object-cover  " />
 
@@ -191,7 +191,7 @@ function App() {
             <h2 className='m-5 dark:text-gray-300  text-gray-800 font-bold '>Balance Board Mobile Game</h2>
 
           </div>
-          <div className=' basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center'>
+          <div className=' hover:scale-105 duration-100  basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center'>
             <a className='object-cover flex flex-1 '  target="_blank" href="https://play.google.com/store/apps/details?id=com.reflexboard">
             <img src={require('./assets/ReflexBoard.png')} className="mx-auto rounded-lg object-cover  " />
 
@@ -199,7 +199,7 @@ function App() {
             <h2 className='m-5 dark:text-gray-300  text-gray-800 font-bold '>Reflex Board Mobile Game</h2>
 
           </div>
-          <div className=' basis-1/3 flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center'>
+          <div className=' hover:scale-105 duration-100  basis-1/3 flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center'>
             <a className='object-cover flex flex-1 '   target="_blank" href="https://play.google.com/store/apps/details?id=com.roalibiten.tetrex3d">
             <img src={require('./assets/Tetrex3D.png')} className="mx-auto rounded-lg object-cover  " />
 
@@ -207,7 +207,7 @@ function App() {
             <h2 className='m-5 dark:text-gray-300  text-gray-800 font-bold '>Tetrex 3D Mobile Game</h2>
 
           </div>
-          <div className=' basis-1/3 flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center'>
+          <div className=' hover:scale-105 duration-100  basis-1/3 flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center'>
             <a className='object-cover flex flex-1 '  target="_blank" href="https://www.oculus.com/experiences/quest/6193634367344819/">
             <img src={require('./assets/Tetrex3DVR.png')} className="mx-auto rounded-lg object-cover " />
 
