@@ -3,6 +3,10 @@ import './App.css';
 import {BsFillMoonStarsFill} from "react-icons/bs"
 import {AiFillLinkedin, AiFillGithub, AiOutlineCoffee} from "react-icons/ai"
 import { useState } from 'react';
+import ParticleImage, { ParticleOptions } from "react-particle-image";
+
+
+
 
 
 function App() {
@@ -17,7 +21,6 @@ function App() {
           <h1 className=' text-xl font-light text-black dark:text-white'>Roali Biten</h1>
           
 
-          
 
           <ul className='flex items-center'>
             <li><BsFillMoonStarsFill color={darkMode?'white':"black"} onClick={()=> setDarkMode(!darkMode)} className=' cursor-pointer text-2xl'/></li>
@@ -29,6 +32,7 @@ function App() {
 
         <div className=" relative py-4 md:py-8">
           <img src={require('./assets/portrait.jpg')} className=" hover:animate-spin duration-75 rounded-full max-h-72 mx-auto md:max-h-96" />
+        
         </div>
         <div className=' text-5xl flex justify-center gap-12 py-3 text-gray-800'>
           <a target="_blank" href='https://www.linkedin.com/in/roali-tar%C4%B1k-biten-07b95b15b/'>
