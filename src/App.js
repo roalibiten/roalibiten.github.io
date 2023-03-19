@@ -17,7 +17,7 @@ function App() {
     <div className={darkMode? "dark" : ""}>
     <div  className=" bg-white md:px-10 lg:px-20 xl:px-40 dark:bg-gradient-to-r from-purple-900 to-teal-900">
       <section id='home' className=" min-h-screen  ">
-        <nav className=' py-7 px-5 mb-12 flex justify-between'>
+        <nav className=' py-7 px-5 mb-0 flex justify-between'>
           <h1 className=' text-xl font-light text-black dark:text-white'>Roali Biten</h1>
           
 
