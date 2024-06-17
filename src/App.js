@@ -3,9 +3,18 @@ import './App.css';
 import {BsFillMoonStarsFill} from "react-icons/bs"
 import {AiFillLinkedin, AiFillGithub, AiOutlineCoffee} from "react-icons/ai"
 import { useState } from 'react';
+
 import ParticleImage, { ParticleOptions } from "react-particle-image";
 
-
+const particleOptions = {
+  filter: ({ x, y, image }) => {
+    // Get pixel
+    const pixel = image.get(x, y);
+    // Make a particle for this pixel if blue > 50 (range 0-255)
+    return pixel.b > 50;
+  },
+  color: ({ x, y, image }) => "#61dafb"
+};
 
 
 
@@ -25,14 +34,20 @@ function App() {
           <ul className='flex items-center'>
             <li><BsFillMoonStarsFill color={darkMode?'white':"black"} onClick={()=> setDarkMode(!darkMode)} className=' cursor-pointer text-2xl'/></li>
             <li>
-              <a target="_blank" href="https://drive.google.com/file/d/1E3FaDZO_w0pNYBA1_TABOD6dECOcXULm/view?usp=share_link" className=' bg-gradient-to-r from-cyan-700 to-teal-500 text-white p-2 rounded-md ml-8' >Resume</a>
+              <a target="_blank" href="https://drive.google.com/file/d/1p2PrCrk3JfPSWXpm6yF3y0opBb4rR8NS/view?usp=sharing" className=' bg-gradient-to-r from-cyan-700 to-teal-500 text-white p-2 rounded-md ml-8' >Resume</a>
             </li>
           </ul>
         </nav>
 
         <div className=" relative py-4 md:py-8">
           <img src={require('./assets/portrait.jpg')} className=" hover:animate-spin duration-75 rounded-full max-h-72 mx-auto md:max-h-96" />
-        
+          {/* <ParticleImage
+      src={"/portrait-nobg.png"}
+      scale={0.7}
+      entropy={20}
+      maxParticles={9000}
+      particleOptions={particleOptions}
+    /> */}
         </div>
         <div className=' text-5xl flex justify-center gap-12 py-3 text-gray-800'>
           <a target="_blank" href='https://www.linkedin.com/in/roali-tar%C4%B1k-biten-07b95b15b/'>
