@@ -34,7 +34,7 @@ function App() {
           <ul className='flex items-center'>
             <li><BsFillMoonStarsFill color={darkMode?'white':"black"} onClick={()=> setDarkMode(!darkMode)} className=' cursor-pointer text-2xl'/></li>
             <li>
-              <a target="_blank" href="https://drive.google.com/file/d/1p2PrCrk3JfPSWXpm6yF3y0opBb4rR8NS/view?usp=sharing" className=' bg-gradient-to-r from-cyan-700 to-teal-500 text-white p-2 rounded-md ml-8' >Resume</a>
+              <a target="_blank" href="https://drive.google.com/file/d/1Fic4u3FdL0cLGBXpnxCBE-vvBDeBt4LF/view?usp=drive_link" className=' bg-gradient-to-r from-cyan-700 to-teal-500 text-white p-2 rounded-md ml-8' >Resume</a>
             </li>
           </ul>
         </nav>
@@ -80,69 +80,39 @@ function App() {
         </div>
       </section>
 
-      <section id='aboutMe' className=" min-h-screen">
-        <div className=' px-5 text-center'>
-          <h3 className='dark:text-white text-3xl py-2 font-semibold '>Services</h3>
-          
-        </div>
-
-        <div className=' md:flex md:gap-2 lg:flex lg:gap-5 xl:flex xl:gap-10'>
-          <div className='  hover:scale-105 duration-100  flex-1 text-center p-5 rounded-xl my-10 mx-5 shadow-lg  shadow-slate-600 dark:shadow-slate-200'>
-            <img src={require('./assets/mobileApps.jpg')} className=" rounded-xl max-h-72 mx-auto " />
-            <h3 className='dark:text-white text-lg font-medium pt-8 pb-2'>Mobile Applications</h3>
-            <p className='dark:text-gray-300 py-2 leading-8 text-gray-800'>
-            I create <span className=' text-teal-500 dark:text-teal-200'>Cross-Platform</span> mobile applications with responsive and cool designs. I also publish your applications on AppStore and PlayStore.
-            </p>
-            <div className=' py-5  '>
-
-            <h4 className='dark:text-white text-m font-medium'>Tech Stack</h4>
-            <p className='dark:text-gray-300 italic  text-gray-800'>React Native</p>
-            <p className='dark:text-gray-300 italic text-gray-800'>Redux</p>
-            <p className='dark:text-gray-300 italic  text-gray-800'>Firebase</p>
-            <p className='dark:text-gray-300  italic text-gray-800'>MongoDB</p>
-            </div>
-          </div>
-          <div className=' hover:scale-105 duration-100   flex-1 text-center shadow-lg p-5 px-5 rounded-xl my-10 mx-5 shadow-slate-600 dark:shadow-slate-200'>
-            <img src={require('./assets/webApps.jpg')} className=" rounded-xl max-h-72 mx-auto " />
-            <h3 className='dark:text-white text-lg font-medium pt-8 pb-2'>Web Applications</h3>
-            <p className='dark:text-gray-300 py-2 leading-8 text-gray-800'>
-            I create <span className=' text-teal-500 dark:text-teal-200'>Creative & Responsive</span> web apps and pages as you request.
-            </p>
-            <div className=' py-5  '>
-            <h4 className='dark:text-white text-m font-medium'>Tech Stack</h4>
-            <p className='dark:text-gray-300 italic  text-gray-800'>ReactJs</p>
-            <p className='dark:text-gray-300 italic  text-gray-800'>NextJs</p>
-            <p className='dark:text-gray-300 italic  text-gray-800'>UI Frameworks</p>
-            <p className='dark:text-gray-300 italic  text-gray-800'>Firebase</p>
-            <p className='dark:text-gray-300 italic  text-gray-800'>MongoDB</p>
-            </div>
-          </div>
-          <div className='  hover:scale-105 duration-100 flex-1 text-center shadow-lg p-5 rounded-xl my-10 mx-5 shadow-slate-600 dark:shadow-slate-200'>
-            <img src={require('./assets/vrApps.jpg')} className=" rounded-xl max-h-72 mx-auto " />
-            <h3 className='dark:text-white text-lg font-medium pt-8 pb-2'>Virtual Reality</h3>
-            <p className='dark:text-gray-300 py-2 leading-8 text-gray-800'>
-            I create <span className=' text-teal-500 dark:text-teal-200'>Immersive</span> VR apps for you to use as a simulations for your business. I also create VR games and publish your apps on Oculus Store.
-            </p>
-            <div className=' py-5  '>
-
-            <h4 className='dark:text-white text-m font-medium'>Tech Stack</h4>
-            <p className='dark:text-gray-300  italic text-gray-800'>Unity 3D</p>
-            <p className='dark:text-gray-300 italic  text-gray-800'>C#</p>
-            <p className='dark:text-gray-300 italic  text-gray-800'>Oculus Series</p>
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
       <section id='portfolio'>
         <div className=' px-5 text-center'>
           <h3 className='dark:text-white text-3xl py-2 font-semibold'>Portfolio</h3>
           <p className='dark:text-gray-300 py-2 leading-8 text-gray-800'>
-            I have been working as a freelance developer since 2017 which gave me a chance to create an impressive portfolio. You can see my <span className='dark:text-teal-200 text-teal-500'>Web Apps</span>, <span className='dark:text-teal-200 text-teal-500'>Mobile Applications</span> and <span className='dark:text-teal-200 text-teal-500'>Games</span> below.
+            I have been working as a frontend developer since 2017 which gave me a chance to create the below portfolio. <br/>You can see my <span className='dark:text-teal-200 text-teal-500'>Web Apps</span>, <span className='dark:text-teal-200 text-teal-500'>Mobile Applications</span> and <span className='dark:text-teal-200 text-teal-500'>Games</span> below.
           </p>
         </div>
         
         <div className='flex flex-col gap-5 py-10 px-5 md:flex-row md:flex-wrap'>
+        <div className=' hover:scale-105 duration-100 basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center'>
+            <a className='object-cover flex flex-1 ' target="_blank" >
+              <img src={require('./assets/creator.png')} className=" mx-auto rounded-lg object-cover" />
+            </a>
+            <h2 className='m-5 dark:text-gray-300  text-gray-800 font-bold '>Web Page/Landing Page Creator</h2>
+
+            </div>
+        <div className=' hover:scale-105 duration-100 basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center'>
+            <a className='object-cover flex flex-1 ' target="_blank" href="https://apps.apple.com/us/app/calisthepedia-workouts-gym/id6736428085">
+              <img src={require('./assets/CalisthepediaMobile.png')} className=" mx-auto rounded-lg object-cover" />
+            </a>
+            <h2 className='m-5 dark:text-gray-300  text-gray-800 font-bold '>Calisthepedia IOS App</h2>
+
+            </div>
+
+        <div className=' hover:scale-105 duration-100 basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center'>
+            <a className='object-cover flex flex-1 ' target="_blank" href="https://www.calisthepedia.com/">
+              <img src={require('./assets/CalisthepediaWeb.png')} className=" mx-auto rounded-lg object-cover" />
+            </a>
+            <h2 className='m-5 dark:text-gray-300  text-gray-800 font-bold '>Calisthepedia Web App</h2>
+
+            </div>
 
           <div className=' hover:scale-105 duration-100 basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center'>
             <a className='object-cover flex flex-1 ' target="_blank" href="http://roalibiten.github.io/admin_dashboard">
@@ -237,6 +207,63 @@ function App() {
           
         </div>
         
+      </section>
+
+
+
+
+      <section id='aboutMe' className=" min-h-screen">
+        <div className=' px-5 text-center'>
+          <h3 className='dark:text-white text-3xl py-2 font-semibold '>Services</h3>
+          
+        </div>
+
+        <div className=' md:flex md:gap-2 lg:flex lg:gap-5 xl:flex xl:gap-10'>
+          <div className='  hover:scale-105 duration-100  flex-1 text-center p-5 rounded-xl my-10 mx-5 shadow-lg  shadow-slate-600 dark:shadow-slate-200'>
+            <img src={require('./assets/mobileApps.jpg')} className=" rounded-xl max-h-72 mx-auto " />
+            <h3 className='dark:text-white text-lg font-medium pt-8 pb-2'>Mobile Applications</h3>
+            <p className='dark:text-gray-300 py-2 leading-8 text-gray-800'>
+            I create <span className=' text-teal-500 dark:text-teal-200'>Cross-Platform</span> mobile applications with responsive and cool designs. I also publish your applications on AppStore and PlayStore.
+            </p>
+            <div className=' py-5  '>
+
+            <h4 className='dark:text-white text-m font-medium'>Tech Stack</h4>
+            <p className='dark:text-gray-300 italic  text-gray-800'>React Native</p>
+            <p className='dark:text-gray-300 italic text-gray-800'>Redux</p>
+            <p className='dark:text-gray-300 italic  text-gray-800'>Firebase</p>
+            <p className='dark:text-gray-300  italic text-gray-800'>MongoDB</p>
+            </div>
+          </div>
+          <div className=' hover:scale-105 duration-100   flex-1 text-center shadow-lg p-5 px-5 rounded-xl my-10 mx-5 shadow-slate-600 dark:shadow-slate-200'>
+            <img src={require('./assets/webApps.jpg')} className=" rounded-xl max-h-72 mx-auto " />
+            <h3 className='dark:text-white text-lg font-medium pt-8 pb-2'>Web Applications</h3>
+            <p className='dark:text-gray-300 py-2 leading-8 text-gray-800'>
+            I create <span className=' text-teal-500 dark:text-teal-200'>Creative & Responsive</span> web apps and pages as you request.
+            </p>
+            <div className=' py-5  '>
+            <h4 className='dark:text-white text-m font-medium'>Tech Stack</h4>
+            <p className='dark:text-gray-300 italic  text-gray-800'>ReactJs</p>
+            <p className='dark:text-gray-300 italic  text-gray-800'>NextJs</p>
+            <p className='dark:text-gray-300 italic  text-gray-800'>UI Frameworks</p>
+            <p className='dark:text-gray-300 italic  text-gray-800'>Firebase</p>
+            <p className='dark:text-gray-300 italic  text-gray-800'>MongoDB</p>
+            </div>
+          </div>
+          <div className='  hover:scale-105 duration-100 flex-1 text-center shadow-lg p-5 rounded-xl my-10 mx-5 shadow-slate-600 dark:shadow-slate-200'>
+            <img src={require('./assets/vrApps.jpg')} className=" rounded-xl max-h-72 mx-auto " />
+            <h3 className='dark:text-white text-lg font-medium pt-8 pb-2'>Virtual Reality</h3>
+            <p className='dark:text-gray-300 py-2 leading-8 text-gray-800'>
+            I create <span className=' text-teal-500 dark:text-teal-200'>Immersive</span> VR apps for you to use as a simulations for your business. I also create VR games and publish your apps on Oculus Store.
+            </p>
+            <div className=' py-5  '>
+
+            <h4 className='dark:text-white text-m font-medium'>Tech Stack</h4>
+            <p className='dark:text-gray-300  italic text-gray-800'>Unity 3D</p>
+            <p className='dark:text-gray-300 italic  text-gray-800'>C#</p>
+            <p className='dark:text-gray-300 italic  text-gray-800'>Oculus Series</p>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
     </div>
